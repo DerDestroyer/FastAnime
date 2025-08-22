@@ -1,3 +1,6 @@
+This is a Fork of FastAnime which was renamed to viu and has gone to shit for use in Windows.
+
+
 <p align="center">
   <h1 align="center">FastAnime</h1>
 </p>
@@ -811,27 +814,6 @@ format = best[height<=1080]/bestvideo[height<=1080]+bestaudio/best
 
 player = mpv
 ```
-
-### Other Terminal Browsers I Made
-[yt-x](https://github.com/Benexl/yt-x) - browse youtube and other yt-dlp sites from the terminal
-
-[lib-x](https://github.com/Benexl/lib-x) - browse your calibre library from the terminal
-
-
-
-## Contributing
-
-pr's are highly welcome
-
-If you find an anime title that does not correspond with a provider or is just weird just [edit the data file](https://github.com/Benexl/FastAnime/blob/master/fastanime/Utility/data.py) and open a pr, issues will be ignored 😝.
-
-## Supporting the Project
-
-More pr's less issues 🙃
-
-Show your support by starring the GitHub repository.
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y8ZAA7N)
 
 ## Disclaimer
 
