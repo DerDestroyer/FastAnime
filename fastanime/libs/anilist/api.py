@@ -217,9 +217,10 @@ class AniListApi:
 
             # ensuring you dont get blocked
             if (
-                int(response.headers.get("X-RateLimit-Remaining", 0)) < 30
+                int(response.headers.get("X-RateLimit-Remaining", 0)) < 15
                 and not response.status_code == 500
             ):
+                print(int(response.headers.get("X-RateLimit-Remaining", 0)))
                 print(
                     "Warning you are exceeding the allowed number of calls per minute"
                 )
@@ -272,7 +273,7 @@ class AniListApi:
 
             # ensuring you dont get blocked
             if (
-                int(response.headers.get("X-RateLimit-Remaining", 0)) < 30
+                int(response.headers.get("X-RateLimit-Remaining", 0)) < 15
                 and not response.status_code == 500
             ):
                 print(
